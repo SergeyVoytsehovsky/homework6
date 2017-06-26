@@ -1,0 +1,444 @@
+@font-face {
+    font-family: 'Lucida Sans Regular';
+    src: url('../fonts/lucida_sans_unicode_regular.woff2') format('woff2'),
+         url('../fonts/lucida_sans_unicode_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Lucida Sans Regular', sans-serif;
+}
+
+.wrapper {
+    margin: 17px auto 0;
+    width: 916px;
+}
+
+.header {margin-left: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.header p {
+    margin: 0 16px 0 4px;
+    font-family: Arial, sans-serif;
+    letter-spacing: .4px
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    border: 1px solid #a6c3cf;
+    border-radius: 5px;
+    background: -moz-linear-gradient(top, #1f6787 0%, #0c3357 100%, #0c3357 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1f6787 0%,#0c3357 100%,#0c3357 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1f6787 0%,#0c3357 100%,#0c3357 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+}
+
+.login img {
+    margin: 0 4px 0 7px;
+}
+
+.login input {
+    margin-bottom: 6px;
+    padding-left: 2px;
+    width: 110px;
+    height: 12px;
+    border: 1px solid #afbdc9;
+    font-size: 11px;
+}
+
+.login input[type=submit] {
+    width: auto;
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: .5px;
+    background-color: inherit;
+    border: none;
+}
+
+.login span {
+    margin-left: -2px;
+    color: #fff;
+    font-size: 11px;
+}
+
+.login a {
+    margin: 0 10px 0 13px;
+    color: #bfbfbf;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.navi {
+    margin-left: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 77px;
+    height: 21px;
+    border: 1px solid #c1c8cb;
+    border-radius: 15px;
+}
+
+.logo {
+    margin-top: 7px;
+}
+
+nav {
+    margin-top: 6px;
+    display: flex;
+    height: 34px;
+    border: 1px solid #4e5474;
+    border-radius: 6px;
+    box-shadow: 1px 2px 3px -1px #000;
+    background: rgba(77,86,99,1);
+    background: -moz-linear-gradient(top, rgba(77,86,99,1) 0%, rgba(246,41,12,1) 0%, rgba(77,86,99,1) 0%, rgba(58,64,70,1) 13%, rgba(45,50,54,1) 14%, rgba(1,1,1,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(77,86,99,1)), color-stop(0%, rgba(246,41,12,1)), color-stop(0%, rgba(77,86,99,1)), color-stop(13%, rgba(58,64,70,1)), color-stop(14%, rgba(45,50,54,1)), color-stop(100%, rgba(1,1,1,1)));
+    background: -webkit-linear-gradient(top, rgba(77,86,99,1) 0%, rgba(246,41,12,1) 0%, rgba(77,86,99,1) 0%, rgba(58,64,70,1) 13%, rgba(45,50,54,1) 14%, rgba(1,1,1,1) 100%);
+    background: -o-linear-gradient(top, rgba(77,86,99,1) 0%, rgba(246,41,12,1) 0%, rgba(77,86,99,1) 0%, rgba(58,64,70,1) 13%, rgba(45,50,54,1) 14%, rgba(1,1,1,1) 100%);
+    background: -ms-linear-gradient(top, rgba(77,86,99,1) 0%, rgba(246,41,12,1) 0%, rgba(77,86,99,1) 0%, rgba(58,64,70,1) 13%, rgba(45,50,54,1) 14%, rgba(1,1,1,1) 100%);
+    background: linear-gradient(to bottom, rgba(77,86,99,1) 0%, rgba(246,41,12,1) 0%, rgba(77,86,99,1) 0%, rgba(58,64,70,1) 13%, rgba(45,50,54,1) 14%, rgba(1,1,1,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d5663', endColorstr='#010101', GradientType=0 );
+}
+
+nav ul {
+    margin-left: 123px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav li {
+    padding-right: 14px;
+    padding-left: 14px;
+    height: 26px;
+}
+
+nav a {
+    display: block;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    color: #b1bcc0;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+nav li:hover {
+    border-radius: 15px;
+    background: #1f6787; /* Old browsers */
+    background: -moz-linear-gradient(top, #1f6787 0%, #207cca 0%, #0c3357 100%, #0c3357 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1f6787 0%,#207cca 0%,#0c3357 100%,#0c3357 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1f6787 0%,#207cca 0%,#0c3357 100%,#0c3357 100%);
+}
+
+.basket {
+    display: flex;
+    align-items: center;
+}
+
+.basket img {
+    margin: 0 10px 0 50px;
+}
+
+.basket p {
+    padding-right: 15px;
+    color: #929b9f;
+    font-size: 11px;
+}
+
+.basket span {
+    color: #0d5a8f;
+    font-size: 12px;
+}
+/*END HEADER*/
+
+.content {
+    margin-top: 20px;
+    display: flex;
+}
+
+.catalog-header,
+.brand-header {
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    width: 185px;
+    height: 25px;
+    border: 1px solid #8b979c;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #114165;
+    box-shadow: 3px 3px 20px -7px #000;
+}
+
+.catalog-header h1 {
+    margin: 1px 0 0 3px;
+    font-size: 14px;
+}
+
+.tires-header {
+    margin-top: 15px;
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 28px;
+    border: 1px solid #8b979c;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #114165;
+}
+
+.tires-header h1 {
+    margin: 1px 0 0 3px;
+    font-size: 14px;
+}
+
+.tires-list {
+    margin: 8px 0 0 55px;
+    list-style-type: circle;
+}
+
+.tires-list-item1,
+.tires-list-item2,
+.tires-list-item3{
+    margin-bottom: 18px;
+}
+
+.tires-list a {
+    font-size: 13px;
+    color: #465961;
+    text-decoration: none;
+}
+
+.tires-list a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.discs-header {
+    margin-top: 15px;
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 28px;
+    border: 1px solid #8b979c;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #114165;
+}
+
+.discs-header h1 {
+    margin: 1px 0 0 3p    x;
+    font-size: 14px;
+}
+
+.discs-header h1 {
+    margin: 1px 0 0 3px;
+}
+
+.discs-list {
+    margin: 8px 0 0 55px;
+    list-style-type: circle;
+}
+
+.discs-list-item1,
+.discs-list-item2,
+.discs-list-item3{
+    margin-bottom: 18px;
+}
+
+.discs-list a {
+    font-size: 13px;
+    color: #465961;
+    text-decoration: none;
+}
+
+.discs-list a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bolts-header {
+    margin-top: 15px;
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 28px;
+    border: 1px solid #8b979c;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #114165;
+}
+
+.bolts-header h1 {
+    margin: 1px 0 0 3p    x;
+    font-size: 14px;
+}
+
+.bolts-header h1 {
+    margin: 1px 0 0 3px;
+}
+
+.bolts-list {
+    margin: 8px 0 0 55px;
+    list-style-type: circle;
+}
+
+.bolts-list-item1,
+.bolts-list-item2,
+.bolts-list-item3{
+    margin-bottom: 18px;
+}
+
+.bolts-list a {
+    font-size: 13px;
+    color: #465961;
+    text-decoration: none;
+}
+
+.bolts-list a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+/*END PRODUCT NAV*/
+
+.product {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 526px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background: #e5e7e8;
+    background: -webkit-linear-gradient(#e5e7e8 0%, #93a7b0 100%, #7db9e8 100%);
+    background: -o-linear-gradient(#e5e7e8 0%, #93a7b0 100%, #7db9e8 100%);
+    background: linear-gradient(#e5e7e8 0%, #93a7b0 100%, #7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e7e8', endColorstr='#7db9e8',GradientType=0 );
+}
+
+.goodyear,
+.nokian,
+.hankook {
+    margin: 16px auto;
+    width: 140px;
+}
+
+.goodyear h1,
+.nokian h1,
+.hankook h1 {
+    text-align: center;
+    font-size: 14.5px;
+    font-weight: bolder;
+    color: #206988;
+}
+
+.goodyear p,
+.nokian p,
+.hankook p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.product .price {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: italic;
+    color: #114165;
+}
+/*END PRODUCT*/
+
+.brand-nav .tires,
+.brand-nav .discs {
+    margin-left: 15px;
+}
+
+.checkboxes p {
+    margin: 10px;
+    font-size: 13px;
+    color: #465961;
+}
+
+.checkboxes input {
+    margin-right: 8px;
+}
+
+.brand-nav button {
+    margin: 20px 0 0 30px;
+    width: 80px;
+    height: 25px;
+    font-size: 12px;
+    color: #e5e9ea;
+    border-radius: 15px;
+    box-shadow: 3px 3px 20px -7px #000;
+    background: #0c3357;
+    background: -moz-linear-gradient(top, #0c3357 0%, #207cca 0%, #1f6787 100%, #1e5799 100%);
+    background: -webkit-linear-gradient(top, #0c3357 0%,#207cca 0%,#1f6787 100%,#1e5799 100%);
+    background: linear-gradient(to bottom, #0c3357 0%,#207cca 0%,#1f6787 100%,#1e5799 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c3357', endColorstr='#1e5799',GradientType=0 );
+}
+
+.brands-logo {
+    margin: 30px auto;
+    width: 715px;
+}
+
+.brands-logo img {
+    margin: 0 6px;
+}
+
+footer {
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    background: #213a4d;
+}
+
+footer ul {
+    margin: 40px auto 0;
+    width: 280px;
+}
+
+footer ul li {
+    margin: 13px 3px;
+    padding-right: 6px;
+    float: left;
+    border-right: 2px solid #7a878f;
+}
+
+footer ul li:last-child {
+    border-right: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #bec6c9;
+}
+
+footer ul li a:hover {
+    color: #52abcb;
+}
+
+footer p {
+    clear: both;
+    font-size: 12px;
+    color: #7f4740;
+}
